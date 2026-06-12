@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# Trained models (large files - use Git LFS or exclude)
+*.keras
+*.h5
+*.pkl
+*.joblib
+best_model.keras
+
+# Data (healthcare data is sensitive - never commit)
+data/
+*.csv
+*.xlsx
+
+# Training outputs
+training_curves.png
+*.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
