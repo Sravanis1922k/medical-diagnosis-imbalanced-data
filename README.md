@@ -220,8 +220,6 @@ medical-diagnosis-imbalanced-data/
 
 | Metric | Value |
 |---|---|
-| Missing value handling | KNN Imputation (k=5) |
-| Class imbalance handling | SMOTE oversampling |
 | ROC-AUC  | 0.92 (held-out test set) |
 | F1 Score | 0.89 (held-out test set) |
 | Minority class recall improvement | 38% after SMOTE |
